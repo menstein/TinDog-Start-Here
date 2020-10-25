@@ -94,9 +94,12 @@ p {
 
 #testimonials {
 	text-align: center;
-	padding: 7% 15%;
 	background-color: #ef8172;
 	color: #fff;
+}
+
+.carousel-item {
+	padding: 7% 15%;
 }
 
 .testi-img {
