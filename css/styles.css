@@ -117,3 +117,14 @@ p {
 .press-logo {
 	width: 15%;
 }
+
+/* Pricing Section */
+
+#pricing {
+	text-align: center;
+	padding: 7% 15%;
+}
+
+.pricing-col {
+	padding: 3% 2%;
+}
