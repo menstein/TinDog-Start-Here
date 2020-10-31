@@ -21,7 +21,7 @@ h1 {
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	line-height: 1.5;
 }
 
@@ -70,6 +70,16 @@ p {
 	transform: rotate(25deg);
 	position: absolute;
 	right: 30%;
+}
+
+@media (max-width: 1024px) {
+	#title {
+		text-align: center;
+	}
+	.title-img {
+		transform: rotate(0);
+		position: static;
+	}
 }
 
 /* Features Section */
@@ -131,4 +141,25 @@ p {
 
 .pricing-col {
 	padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+	text-align: center;
+	background-color: #ff4c68;
+	color: #fff;
+	padding: 7% 15% ;
+}
+
+/* Footer Section */
+
+#footer {
+	text-align: center;
+	background-color: #fff;
+	padding: 5% 15%;
+}
+
+.socmed-img {
+	margin: 16px;
 }
